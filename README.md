@@ -20,6 +20,16 @@ This repo collects solved LeetCode problems (and drafts) organized by language a
 ## Folder structure
 Top-level layout (example):
 
+practiceLeetcode/
+├─ .idea/                      # IDE project files (ignored in VCS)
+├─ src/
+│  └─ main/
+│     └─ java/
+│        └─ leetpractice/      # Primary Java package for solutions
+│
+├─ tests/                      # Unit tests (optional)
+├─ README.md                   # This file
+
 
 ## Adding a new solution
 1. Create a new folder following the convention: `NN-problem-slug`.
