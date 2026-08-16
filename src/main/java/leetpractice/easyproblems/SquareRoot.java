@@ -1,6 +1,5 @@
 package leetpractice.easyproblems;
 
-import com.sun.xml.internal.bind.v2.runtime.output.StAXExStreamWriterOutput;
 
 public class SquareRoot {
 
