@@ -1,7 +1,7 @@
 package leetpractice.easyproblems;
 
 
-public class SquareRoot {
+public class SquareRoot69 {
 
     //https://leetcode.com/problems/sqrtx/
     //Given a non-negative integer x, return the square root of x rounded down to the nearest integer.

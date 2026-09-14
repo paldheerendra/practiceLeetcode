@@ -25,6 +25,9 @@ public class Main {
         System.out.println("Deleted index value: " + list.delete(2));
         list.display();
 
+        list.addRec(500, 2);
+        list.display();
+
 
         System.out.println("\nDoubly linked list...");
         DoublyLL dList = new DoublyLL();

@@ -57,6 +57,21 @@ public class SinglyLL {
         size++;
     }
 
+    // Recursive method to add a node at a specific index
+    public void addRec(int value, int index) {
+        head = addRec(value, index, head);
+    }
+
+    // Recursive method to add a node at a specific index
+    private Node addRec(int value, int index, Node node) {
+        if (index == 0) {
+            Node temp = new Node(value, node);
+            size++;
+            return temp;
+        }
+        node.next = addRec(value, index - 1, node.next);
+        return node;
+    }
 
     public int deleteFirst() {
         int val = head.value;
