@@ -1,7 +1,8 @@
-package practiceLeetcode.string;
+package leetpractice.easyproblems;
 
-public class PalindromeNumber {
+public class PalindromeNumber9 {
 
+	//https://leetcode.com/problems/palindrome-number/description/
 	public static boolean isPalindrome(int x) {
 		int num = x;
 		if (x < 0)

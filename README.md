@@ -26,7 +26,6 @@ practiceLeetcode/
 │  └─ main/
 │     └─ java/
 │        └─ leetpractice/      # Primary Java package for solutions
-│
 ├─ tests/                      # Unit tests (optional)
 ├─ README.md                   # This file
 

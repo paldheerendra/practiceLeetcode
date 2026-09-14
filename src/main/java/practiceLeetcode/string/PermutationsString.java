@@ -2,6 +2,7 @@ package practiceLeetcode.string;
 
 public class PermutationsString {
 
+	//https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/
 	// Function for swapping the characters at position i with character at position
 	// j
 	public static String swapString(String a, int i, int j) {
