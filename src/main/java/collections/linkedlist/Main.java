@@ -25,5 +25,21 @@ public class Main {
         System.out.println("Deleted index value: " + list.delete(2));
         list.display();
 
+
+        System.out.println("\nDoubly linked list...");
+        DoublyLL dList = new DoublyLL();
+        dList.addFirst(10);
+        dList.addFirst(20);
+        dList.addFirst(30);
+        dList.addFirst(100);
+        dList.display(); // Output: 100 <-> 30 <-> 20 <-> 10 <-> null
+
+        dList.addLast(300);
+        dList.display();
+
+        dList.add(200, 3);
+        dList.display();
+
+
     }
 }
