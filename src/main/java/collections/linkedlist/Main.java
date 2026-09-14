@@ -40,6 +40,21 @@ public class Main {
         dList.add(200, 3);
         dList.display();
 
+        System.out.println("\nCircular linked list...");
+        CircularLL cList = new CircularLL();
+        cList.add(10);
+        cList.add(20);
+        cList.add(30);
+        cList.add(100);
+        cList.add(300);
+        cList.display(); // Output: 300 -> 100 -> 30 -> 20 -> 10 -> (back to head)
+
+        cList.delete(30);
+        cList.display(); // Output: 300 -> 100 -> 20 -> 10 -> (back to head)
+
+
+        cList.delete1(20);
+        cList.display(); // Output: 300 -> 100 -> 10 -> (back to head)
 
     }
 }
