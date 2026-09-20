@@ -33,31 +33,6 @@ public class LLReverseII_92 {
         return dummy.next;
     }
 
-    //reverse the linked list from position left to right
-    private ListNode reverseList(ListNode head, int left, int right) {
-        ListNode prev = null;
-        ListNode current = head;
-
-        for (int i = 0; i < left - 1; i++) {
-            prev = current;
-            current = current.next;
-        }
-
-        //reverse the sublist from left to right
-        ListNode last = prev;
-        ListNode newEnd = current;
-
-        for (int i = 0; i < right - left + 1; i++) {
-            ListNode nextTemp = current.next;
-            current.next = prev;
-            prev = current;
-            current = nextTemp;
-        }
-        last.next = prev;
-        newEnd.next = current;
-        return head;
-    }
-
     public static void main(String[] args) {
         //Singly linked list: 1 -> 2 -> 3 -> 4 -> 5
         LLReverseII_92 list = new LLReverseII_92();
