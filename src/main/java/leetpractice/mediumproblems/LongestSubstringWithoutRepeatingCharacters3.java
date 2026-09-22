@@ -17,7 +17,7 @@ public class LongestSubstringWithoutRepeatingCharacters3 {
 	//https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
 
 	public static void main(String[] args) {
-		int length = lengthOfLongestSubstring2("abcabcbb");
+		int length = lengthOfLongestSubstring("abcabcbb");
 		System.out.println(length);
 	}
 	public static int lengthOfLongestSubstring2(String s) {
