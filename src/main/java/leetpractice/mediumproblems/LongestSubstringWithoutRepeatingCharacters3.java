@@ -21,12 +21,11 @@ public class LongestSubstringWithoutRepeatingCharacters3 {
 		System.out.println(length);
 	}
 	public static int lengthOfLongestSubstring2(String s) {
-		int n = s.length();
 		int max = 0;
 		Set<Character> hs = new HashSet<>();
 		int left = 0;
 
-		for(int right =0 ; right < n; right++){
+		for(int right =0 ; right < s.length(); right++){
 			if(!hs.contains(s.charAt(right))){
 				hs.add(s.charAt(right));
 				max = Math.max(max, right -left + 1);
