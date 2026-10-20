@@ -11,15 +11,17 @@ public class RemoveDuplicatesInArray80 {
 
             int[] nums = {1,1,1,2,2,3};
             //output: 7, nums = [0,0,1,1,2,3,3]
-            System.out.println(removeDuplicates1(nums));
+            System.out.println(removeDuplicates(nums));
     }
 
+    // 2 pointer solution
+    // time complexity: O(n), space complexity: O(1)
+    // This method modifies the input array in place to remove duplicates such that each element appears at most twice.
     private static int removeDuplicates(int[] nums) {
         int n = nums.length;
         if (n <= 2) {
             return n;
         }
-
         int j = 1; // Pointer for the position to place the next valid element
         int count = 1; // Count of the current number
 
@@ -39,6 +41,8 @@ public class RemoveDuplicatesInArray80 {
         return j; // New length of the array with duplicates removed
     }
 
+    // Hash map solution
+    // time complexity: O(n), space complexity: O(n)
     private static int removeDuplicates1(int[] nums){
 
             int n = nums.length;

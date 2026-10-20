@@ -6,7 +6,21 @@ import java.util.Locale;
 public class ValidAnagram242 {
     //https://leetcode.com/problems/valid-anagram/description/
 
+    // Approach 2: Sorting
     public static boolean isAnagram(String s, String t) {
+        if (s.length() != t.length()) {
+            return false;
+        }
+        char[] sChars = s.toLowerCase().toCharArray();
+        char[] tChars = t.toLowerCase().toCharArray();
+        Arrays.sort(sChars);
+        Arrays.sort(tChars);
+
+        return Arrays.equals(sChars, tChars);
+    }
+
+    // Approach 1: Using indexOf and substring
+    public static boolean isAnagram1(String s, String t) {
         if (s.length() != t.length()) {
             return false;
         }
@@ -18,18 +32,6 @@ public class ValidAnagram242 {
             t = t.substring(0, index) + t.substring(index + 1);
         }
         return true;
-    }
-
-    public static boolean isAnagram1(String s, String t) {
-        if (s.length() != t.length()) {
-            return false;
-        }
-        char[] sChars = s.toLowerCase().toCharArray();
-        char[] tChars = t.toLowerCase().toCharArray();
-        Arrays.sort(sChars);
-        Arrays.sort(tChars);
-
-        return Arrays.equals(sChars, tChars);
     }
 
     public static void main(String[] args) {;
