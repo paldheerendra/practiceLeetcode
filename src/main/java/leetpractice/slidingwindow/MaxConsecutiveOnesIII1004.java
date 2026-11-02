@@ -1,4 +1,4 @@
-package leetpractice.mediumproblems;
+package leetpractice.slidingwindow;
 
 public class MaxConsecutiveOnesIII1004 {
     //https://leetcode.com/problems/max-consecutive-ones-iii/description/

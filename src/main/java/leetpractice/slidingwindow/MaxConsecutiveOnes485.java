@@ -1,4 +1,4 @@
-package leetpractice.easyproblems;
+package leetpractice.slidingwindow;
 
 public class MaxConsecutiveOnes485 {
     //https://leetcode.com/problems/max-consecutive-ones/description/

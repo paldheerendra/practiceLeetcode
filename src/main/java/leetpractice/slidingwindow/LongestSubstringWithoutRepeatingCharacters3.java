@@ -1,7 +1,7 @@
 /**
  * 
  */
-package leetpractice.mediumproblems;
+package leetpractice.slidingwindow;
 
 import java.util.HashSet;
 import java.util.Set;

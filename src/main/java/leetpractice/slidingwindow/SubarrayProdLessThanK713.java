@@ -1,4 +1,4 @@
-package leetpractice.mediumproblems;
+package leetpractice.slidingwindow;
 
 public class SubarrayProdLessThanK713 {
 

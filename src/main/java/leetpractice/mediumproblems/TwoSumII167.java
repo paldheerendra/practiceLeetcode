@@ -3,6 +3,7 @@ package leetpractice.mediumproblems;
 public class TwoSumII167 {
     //https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
 
+    // Two pointers approach
     public static int[] twoSum(int[] numbers, int target) {
         int left = 0;
         int right = numbers.length - 1;

@@ -1,4 +1,4 @@
-package leetpractice.mediumproblems;
+package leetpractice.slidingwindow;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -7,6 +7,7 @@ public class MaximumSizeSubArraySum325 {
     //https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/description/
 
 
+    //sliding window solution
     public static int maxSubArrayLen(int[] nums, int k) {
         int maxLength = 0;
         int sum = 0;

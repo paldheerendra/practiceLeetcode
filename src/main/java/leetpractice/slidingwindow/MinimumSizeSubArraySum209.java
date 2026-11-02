@@ -1,7 +1,9 @@
-package leetpractice.mediumproblems;
+package leetpractice.slidingwindow;
 
 public class MinimumSizeSubArraySum209 {
     //https://leetcode.com/problems/minimum-size-subarray-sum/description/
+
+
     public static int minSubArrayLen(int target, int[] nums) {
         int left = 0;
         int sum = 0;
