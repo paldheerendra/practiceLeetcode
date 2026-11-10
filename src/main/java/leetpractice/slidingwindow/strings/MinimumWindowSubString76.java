@@ -1,4 +1,4 @@
-package leetpractice.hardproblems;
+package leetpractice.slidingwindow.strings;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -6,11 +6,12 @@ import java.util.Map;
 public class MinimumWindowSubString76 {
     //https://leetcode.com/problems/minimum-window-substring/description/
 
+
+    //sliding window solution - O(n + m) time complexity, space complexity - O(1)
     public static String minWindow(String s, String t) {
         if(s.length() < t.length()) {
             return "";
         }
-
         Map<Character, Integer> charCount = new HashMap<>();
         for(char c : t.toCharArray()) {
             charCount.put(c, charCount.getOrDefault(c, 0) + 1);
