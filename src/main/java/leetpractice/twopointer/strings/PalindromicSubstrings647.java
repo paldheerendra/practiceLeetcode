@@ -1,4 +1,4 @@
-package leetpractice.mediumproblems;
+package leetpractice.twopointer.strings;
 
 public class PalindromicSubstrings647 {
 

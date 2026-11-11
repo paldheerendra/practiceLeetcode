@@ -1,14 +1,10 @@
-package leetpractice.dsa.binarysearch;
+package leetpractice.binarysearch;
 
 
-public class BSSearchInsertPosition {
+public class SearchInsertPosition35 {
     //https://leetcode.com/problems/search-insert-position/description/
-    public static void main(String[] args) {
-        int [] arr = {1,3,5,6};
-        int target = 2;
-        System.out.println(searchInsert(arr, target));
-    }
 
+    //binary search approach
     public static int searchInsert(int[] arr, int target) {
         int start = 0;
         int end = arr.length - 1;
@@ -26,5 +22,11 @@ public class BSSearchInsertPosition {
             }
         }
         return index;
+    }
+
+    public static void main(String[] args) {
+        int [] arr = {1,3,5,6};
+        int target = 2;
+        System.out.println(searchInsert(arr, target));
     }
 }

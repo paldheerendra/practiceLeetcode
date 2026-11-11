@@ -1,4 +1,4 @@
-package leetpractice.mediumproblems;
+package leetpractice.twopointer.arrays;
 
 public class SortColors75 {
     //https://leetcode.com/problems/sort-colors/description/

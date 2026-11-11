@@ -1,4 +1,4 @@
-package leetpractice.mediumproblems;
+package leetpractice.twopointer.arrays;
 
 public class ContainerWithMostWater11 {
     //https://leetcode.com/problems/container-with-most-water/description/

@@ -1,4 +1,4 @@
-package leetpractice.mediumproblems;
+package leetpractice.twopointer.arrays;
 
 import java.util.ArrayList;
 import java.util.Arrays;

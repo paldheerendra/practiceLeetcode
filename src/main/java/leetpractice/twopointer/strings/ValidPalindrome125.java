@@ -1,6 +1,4 @@
-package leetpractice.easyproblems;
-
-import java.util.Locale;
+package leetpractice.twopointer.strings;
 
 public class ValidPalindrome125 {
 

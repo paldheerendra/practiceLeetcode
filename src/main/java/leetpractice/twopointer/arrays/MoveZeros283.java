@@ -1,4 +1,4 @@
-package leetpractice.easyproblems;
+package leetpractice.twopointer.arrays;
 
 public class MoveZeros283 {
     //https://leetcode.com/problems/move-zeroes/description/

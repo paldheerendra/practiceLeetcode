@@ -1,4 +1,4 @@
-package leetpractice.easyproblems;
+package leetpractice.twopointer.strings;
 
 public class ValidPalindrome680 {
 

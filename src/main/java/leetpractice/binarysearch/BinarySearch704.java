@@ -1,6 +1,6 @@
-package leetpractice.dsa.binarysearch;
+package leetpractice.binarysearch;
 
-public class BSTargetIndex {
+public class BinarySearch704 {
 
    // https://leetcode.com/problems/binary-search/description/
     public static void main(String[] args) {

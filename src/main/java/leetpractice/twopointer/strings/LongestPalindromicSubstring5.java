@@ -1,4 +1,4 @@
-package leetpractice.mediumproblems;
+package leetpractice.twopointer.strings;
 
 public class LongestPalindromicSubstring5 {
     //https://leetcode.com/problems/longest-palindromic-substring/description/

@@ -1,4 +1,4 @@
-package leetpractice.mediumproblems;
+package leetpractice.twopointer.arrays;
 
 public class TwoSumII167 {
     //https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/

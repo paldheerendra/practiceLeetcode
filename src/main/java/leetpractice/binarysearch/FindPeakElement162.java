@@ -1,6 +1,6 @@
-package leetpractice.dsa.binarysearch;
+package leetpractice.binarysearch;
 
-public class BSFindPeakElement {
+public class FindPeakElement162 {
 
     //https://leetcode.com/problems/find-peak-element
     public static void main(String[] args) {
@@ -32,7 +32,6 @@ public class BSFindPeakElement {
                 }
             }
         }
-
         return index;
     }
 }

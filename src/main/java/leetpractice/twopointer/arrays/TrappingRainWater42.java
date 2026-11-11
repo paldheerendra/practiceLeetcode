@@ -1,4 +1,4 @@
-package leetpractice.hardproblems;
+package leetpractice.twopointer.arrays;
 
 public class TrappingRainWater42 {
     //https://leetcode.com/problems/trapping-rain-water/description/
