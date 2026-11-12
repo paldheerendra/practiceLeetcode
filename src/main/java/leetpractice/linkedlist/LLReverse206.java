@@ -17,7 +17,6 @@ public class LLReverse206 {
         return prev; // New head of the reversed list
     }
 
-
     public static void main(String[] args) {
 
         //Singly linked list: 1 -> 2 -> 3 -> 4 -> 5
