@@ -1,4 +1,4 @@
-package leetpractice.easyproblems;
+package leetpractice.linkedlist;
 
 public class LLHappyNUmber202 {
 

@@ -1,4 +1,4 @@
-package leetpractice.mediumproblems;
+package leetpractice.linkedlist;
 
 public class LLCyclePresent142 {
     //https://leetcode.com/problems/linked-list-cycle-ii/description/

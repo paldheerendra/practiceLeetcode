@@ -1,4 +1,4 @@
-package leetpractice.mediumproblems;
+package leetpractice.linkedlist;
 
 public class LLAddTwoNumbers2 {
     //https://leetcode.com/problems/add-two-numbers/description/

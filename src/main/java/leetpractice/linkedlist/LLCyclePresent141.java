@@ -1,25 +1,37 @@
-package leetpractice.easyproblems;
+package leetpractice.linkedlist;
 
-public class LLMiddle876 {
-
-    //https://leetcode.com/problems/middle-of-the-linked-list/description/
-
-    public ListNode middleNode(ListNode head) {
+public class LLCyclePresent141 {
+    //https://leetcode.com/problems/linked-list-cycle/description/
+    public static boolean hasCycle(ListNode head) {
         if (head == null) {
-            return null;
+            return false;
         }
-
         ListNode slow = head;
         ListNode fast = head;
-
         while (fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
+            if (slow == fast) {
+                return true;
+            }
         }
-
-        return slow; // The middle node
+        return false;
     }
 
+    public static void main(String[] args) {
+        //Singly linked list: 3 -> 2 -> 0 -> -4
+        LLCyclePresent141 list = new LLCyclePresent141();
+        list.addLast(3);
+        list.addLast(2);
+        list.addLast(0);
+        list.addLast(-4);
+        list.display();
+
+        // Creating a cycle for testing
+        list.tail.next = list.head.next; // Creating a cycle (tail points to the second node)
+
+        System.out.println("Has cycle: " + hasCycle(list.head));
+    }
 
     private ListNode head;
     private ListNode tail;

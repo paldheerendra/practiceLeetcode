@@ -1,6 +1,4 @@
-package leetpractice.hardproblems;
-
-import leetpractice.mediumproblems.LLReverseII_92;
+package leetpractice.linkedlist;
 
 public class LLReverseNodesKGroup25 {
 

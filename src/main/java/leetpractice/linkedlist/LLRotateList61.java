@@ -1,4 +1,4 @@
-package leetpractice.mediumproblems;
+package leetpractice.linkedlist;
 
 public class LLRotateList61 {
 

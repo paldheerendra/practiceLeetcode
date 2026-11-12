@@ -1,6 +1,4 @@
-package leetpractice.mediumproblems;
-
-import leetpractice.easyproblems.LLReverse206;
+package leetpractice.linkedlist;
 
 public class LLReverseII_92 {
 

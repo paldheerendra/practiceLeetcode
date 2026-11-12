@@ -1,4 +1,4 @@
-package leetpractice.mediumproblems;
+package leetpractice.linkedlist;
 
 public class LLReorderList143 {
     //https://leetcode.com/problems/reorder-list/description/
